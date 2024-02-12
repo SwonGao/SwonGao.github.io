@@ -1,21 +1,52 @@
 ---
 permalink: /
-title: "About me"
+title: "Research"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of Songqun Gao's website.
+{% include base_path %}
 
----
 Research
----
+======
 
 Advisor: Prof. Ben M. Chen
 
 My research interest lies in robotics and control. Currently, I am focusing on the robot-environment interaction and underwater robotics.
+
+
+
+Education
+======
+* B.Eng. in Automation, University of Science and Technology of China, 2020
+* Ph.D in Mechanical and Automation Engineering, The Chinese University of Hong Kong, 2024 (expected)
+
+Work experience
+======
+* Summer 2019: Internship
+  * Github University
+  * Duties included: Tagging issues
+  * Supervisor: Professor Git
+
+Skills
+======
+* Programming skills: Python, C++, MATLAB
+* ROS, Gazebo, Pybullet
+* Solidworks
+  <!-- * Sub-skill 2.3 -->
+
+  
+Teaching
+======
+  <ul>{% for post in site.teaching %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+  
+Service
+======
+* 
 
 <!--
 Example: editing a markdown file for a talk
