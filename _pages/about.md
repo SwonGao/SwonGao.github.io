@@ -37,13 +37,12 @@ Skills
   
 Teaching
 ======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
+* Teaching Assistant in CUHK
+  * MAEG5725: Control and Industrial Automation (Spring 2024)
+
 Service
 ======
-* 
+* Reviewer for Unmanned Systems, Journal of Bionic Engineering.
 
 <!--
 Example: editing a markdown file for a talk
