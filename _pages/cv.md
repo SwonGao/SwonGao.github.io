@@ -21,7 +21,7 @@ author_profile: true
 <body>
     <!-- <h2>PDF Display in Web Page</h2> -->
     <div class="pdf-container">
-        <iframe src="../files/CV.pdf" width="100%" height="100%"></iframe>
+        <iframe src="../files/CV.pdf" width="100%" height="900px"></iframe>
     </div>
 </body>
 </html>
