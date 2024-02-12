@@ -9,9 +9,6 @@ redirect_from:
 
 {% include base_path %}
 
-Research
-======
-
 Advisor: Prof. Ben M. Chen
 
 My research interest lies in robotics and control. Currently, I am focusing on the robot-environment interaction and underwater robotics.
