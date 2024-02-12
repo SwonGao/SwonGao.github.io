@@ -25,18 +25,33 @@ author_profile: true
         <li><strong>S. Gao</strong>, W. Ding, Q. Ren, and Ben M. Chen, "UDE-based Dynamic Motion Force Control of
             Mobile Manipulators," completed.</li>
     </ol>
+    <h3>Journal Articles</h3>
+    <ol>
+        <li>X. Liu, M. Dou, R. Yan, D. Huang, <strong>S. Gao</strong>, B. Wang, J. Cui, Q. Ren, L. Dou, Z. Gao, J. Chen and B. M. Chen, TJ-FlyingFish: An unmanned morphable aerial-aquatic vehicle system, <em>Unmanned Systems</em>, in press.</li>
+    </ol>
+    <h3>Conference Proceedings</h3>
+    <ol>
+        <li>Z. Zhao, Y. Zhai, C. Gao, W. Ding, R. Yan, <strong>S. Gao</strong>, B. Han, X. Liu, Z. Guo and B. M. Chen, Sea-U-Foil: A hydrofoil marine vehicle with multi-modal locomotion, To be presented at <em>the 2024 IEEE International Conference on Robotics and Automation (ICRA)</em>, Yokohama, Japan, May 2024.</li>
+    </ol>
+    <h2>2023</h2>
+    <h3>Conference Proceedings</h3>
+    <ol>
+        <li>X. Liu, M. Dou, D. Huang, <strong>S. Gao</strong>, R. Yan, B. Wang, J. Cui, Q. Ren, L. Dou, Z. Gao, J. Chen, B. M. Chen, "TJ-FlyingFish: Design and Implementation of an Aerial-Aquatic Quadrotor with Tiltable Propulsion Units,"<em>2023 IEEE International Conference on Robotics and Automation (ICRA)</em>, London, United Kingdom, 2023, pp. 7324-7330.</li>
+    </ol>
+    <h2>2021</h2>
+    <h3>Conference Proceedings</h3>
+    <ol>
+        <li><strong>S. Gao</strong> and Z. Kan, "Effective Dynamic Coverage Control for Heterogeneous Driftless Control Affine Systems," in <em>IEEE Control Systems Letters</em>, vol. 5, no. 6, pp. 2018-2023, Dec. 2021.</li>
+    </ol>
+    <h2>2020</h2>
+    <h3>Journal Articles</h3>
+    <ol>
+        <li><strong>S. Gao</strong>, Y. Ding and Ben M. Chen, "A Frontier-Based Coverage Path Planning Algorithm for Robot Exploration in Unknown Environment," <em>2020 39th Chinese Control Conference (CCC)</em>, Shenyang, China, 2020, pp. 3920-3925.</li>
+    </ol>
 </body>
 </html>
 
-## 2024
-
-### Ongoing work
-
-1. **S. Gao**, R. Yan, Z. Zhao, M. Dou, Q. Ren, and Ben M. Chen, "Sea-U-Dragon, a light-weight
-   underwater unmanned vehicles for robot-environment interaction," completed.
-2. **S. Gao**, W. Ding, Q. Ren, and Ben M. Chen, "UDE-based Dynamic Motion Force Control of
-   Mobile Manipulators," completed.
-
+<!-- 
 ### Journal Articles
 
 1. X. Liu, M. Dou, R. Yan, D. Huang, **S. Gao**, B. Wang, J. Cui, Q. Ren, L. Dou, Z. Gao, J. Chen and B. M. Chen, TJ-FlyingFish: An unmanned morphable aerial-aquatic vehicle system,  *Unmanned Systems* , in press.
@@ -62,7 +77,7 @@ author_profile: true
 ### Journal Articles
 
 1. **S. Gao**, Y. Ding and Ben M. Chen, "A Frontier-Based Coverage Path Planning Algorithm
-   for Robot Exploration in Unknown Environment,"  *2020 39th Chinese Control Conference (CCC)* , Shenyang, China, 2020, pp. 3920-3925.
+   for Robot Exploration in Unknown Environment,"  *2020 39th Chinese Control Conference (CCC)* , Shenyang, China, 2020, pp. 3920-3925. -->
 
 
 <!-- {% if author.googlescholar %}
