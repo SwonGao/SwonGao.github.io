@@ -5,10 +5,10 @@ permalink: /publications/
 author_profile: true
 ---
 
-
+<span style="font-family: 'Times New Roman', Times, serif;">
 ## 2024
 
-### <span style="font-family: 'Times New Roman', Times, serif;">Ongoing work</span>
+### Ongoing work
 
 1. **S. Gao**, R. Yan, Z. Zhao, M. Dou, Q. Ren, and Ben M. Chen, "Sea-U-Dragon, a light-weight
    underwater unmanned vehicles for robot-environment interaction," completed.
@@ -22,7 +22,7 @@ author_profile: true
 ### Conference Proceedings
 
 Z. Zhao, Y. Zhai, C. Gao, W. Ding, R. Yan, **S. Gao**, B. Han, X. Liu, Z. Guo and B. M. Chen, Sea-U-Foil: A hydrofoil marine vehicle with multi-modal locomotion, To be presented at  *the 2024 IEEE International Conference on Robotics and Automation (ICRA)* , Yokohama, Japan, May 2024.
-
+</span>
 
 ## 2023
 
