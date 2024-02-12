@@ -42,16 +42,17 @@ author_profile: true
         </video>
         <p>Underwater demonstration video.</p>
     </div>
-    <h3>Ongoing work</h3>
     <h2>Mobile Manipulator</h2>
     <div class="video-container">
         <video controls>
             <source src="../files/mm_sim.mp4" type="video/mp4">
             Your browser does not support the video tag.
+            <p>Simulation on dynamic motion/force tracking.</p>
         </video>
         <video controls>
             <source src="../files/mm_exp.mp4" type="video/mp4">
             Your browser does not support the video tag.
+            <p>Experiment on dynamic motion/force tracking.</p>
         </video>
     </div>
 </body>
