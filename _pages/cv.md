@@ -9,32 +9,22 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* B.Eng. in Automation, University of Science and Technology of China, 2020
-* Ph.D in Mechanical and Automation Engineering, The Chinese University of Hong Kong, 2024 (expected)
-
-Work experience
-======
-* Summer 2019: Internship
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-
-Skills
-======
-* Programming skills: Python, C++, MATLAB
-* ROS, Gazebo, Pybullet
-* Solidworks
-  <!-- * Sub-skill 2.3 -->
-
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service
-======
-* 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Display Example</title>
+    <style>
+        .pdf-container {
+            text-align: center; /* Center the PDF iframe */
+            padding: 20px; /* Add some padding around the PDF */
+        }
+    </style>
+</head>
+<body>
+    <h2>PDF Display in Web Page</h2>
+    <div class="pdf-container">
+        <iframe src="../files/paper1.pdf" width="80%" height="600px"></iframe>
+    </div>
+</body>
+</html>

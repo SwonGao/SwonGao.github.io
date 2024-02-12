@@ -21,7 +21,7 @@ author_profile: true
         } */
         .video-container {
             text-align: center; /* 使视频和文本居中显示 */
-            margin-bottom: 10px; /* 在视频容器底部添加一些间隙 */
+            margin-bottom: 3px; /* 在视频容器底部添加一些间隙 */
         }
         .video-container p {
             color: #666; /* 设置备注文本的颜色 */
