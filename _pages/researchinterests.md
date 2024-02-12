@@ -31,11 +31,11 @@ author_profile: true
     <h2>Mobile Manipulator</h2>
     <div class="video-container">
         <video controls>
-            <source src="http://academicpages.github.io/files/mm_sim.mp4" type="video/mp4">
+            <source src="../files/mm_sim.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
         <video controls>
-            <source src="http://academicpages.github.io/files/mm_exp.mp4" type="video/mp4">
+            <source src="../files/mm_exp.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
     </div>
