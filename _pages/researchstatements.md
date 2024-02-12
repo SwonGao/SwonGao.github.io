@@ -49,6 +49,8 @@ author_profile: true
             Your browser does not support the video tag.
             <p>Simulation on dynamic motion/force tracking.</p>
         </video>
+    </div>
+    <div class="video-container">
         <video controls>
             <source src="../files/mm_exp.mp4" type="video/mp4">
             Your browser does not support the video tag.
