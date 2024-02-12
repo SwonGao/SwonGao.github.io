@@ -11,15 +11,20 @@ author_profile: true
         body {
             font-family: 'Times New Roman', Times, serif;
         }
+        ol {
+            padding-left: 20px;
+        }
     </style>
 </head>
 <body>
     <h2>2024</h2>
     <h3>Ongoing work</h3>
-    1. <strong>S. Gao</strong>, R. Yan, Z. Zhao, M. Dou, Q. Ren, and Ben M. Chen, "Sea-U-Dragon, a light-weight
-   underwater unmanned vehicles for robot-environment interaction," completed.
-    2. <strong>S. Gao</strong>, W. Ding, Q. Ren, and Ben M. Chen, "UDE-based Dynamic Motion Force Control of
-   Mobile Manipulators," completed.
+    <ol>
+        <li><strong>S. Gao</strong>, R. Yan, Z. Zhao, M. Dou, Q. Ren, and Ben M. Chen, "Sea-U-Dragon, a light-weight
+            underwater unmanned vehicles for robot-environment interaction," completed.</li>
+        <li><strong>S. Gao</strong>, W. Ding, Q. Ren, and Ben M. Chen, "UDE-based Dynamic Motion Force Control of
+            Mobile Manipulators," completed.</li>
+    </ol>
 </body>
 </html>
 
@@ -38,7 +43,7 @@ author_profile: true
 
 ### Conference Proceedings
 
-Z. Zhao, Y. Zhai, C. Gao, W. Ding, R. Yan, **S. Gao**, B. Han, X. Liu, Z. Guo and B. M. Chen, Sea-U-Foil: A hydrofoil marine vehicle with multi-modal locomotion, To be presented at  *the 2024 IEEE International Conference on Robotics and Automation (ICRA)* , Yokohama, Japan, May 2024.
+1. Z. Zhao, Y. Zhai, C. Gao, W. Ding, R. Yan, **S. Gao**, B. Han, X. Liu, Z. Guo and B. M. Chen, Sea-U-Foil: A hydrofoil marine vehicle with multi-modal locomotion, To be presented at  *the 2024 IEEE International Conference on Robotics and Automation (ICRA)* , Yokohama, Japan, May 2024.
 
 ## 2023
 
