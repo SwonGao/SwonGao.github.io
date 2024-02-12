@@ -19,9 +19,9 @@ author_profile: true
     </style>
 </head>
 <body>
-    <h2>PDF Display in Web Page</h2>
+    <!-- <h2>PDF Display in Web Page</h2> -->
     <div class="pdf-container">
-        <iframe src="../files/paper1.pdf" width="80%" height="600px"></iframe>
+        <iframe src="../files/CV.pdf" width="100%" height="100%"></iframe>
     </div>
 </body>
 </html>
