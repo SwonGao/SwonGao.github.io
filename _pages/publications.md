@@ -5,7 +5,6 @@ permalink: /publications/
 author_profile: true
 ---
 
-<!DOCTYPE html>
 <html>
 <head>
     <style>
@@ -17,12 +16,10 @@ author_profile: true
 <body>
     <h2>2024</h2>
     <h3>Ongoing work</h3>
-    <ol>
-        <li><strong>S. Gao</strong>, R. Yan, Z. Zhao, M. Dou, Q. Ren, and Ben M. Chen, "Sea-U-Dragon, a light-weight
-   underwater unmanned vehicles for robot-environment interaction," completed.</li>
-        <li><strong>S. Gao</strong>, W. Ding, Q. Ren, and Ben M. Chen, "UDE-based Dynamic Motion Force Control of
-   Mobile Manipulators," completed.</li>
-    </ol>
+    1. <strong>S. Gao</strong>, R. Yan, Z. Zhao, M. Dou, Q. Ren, and Ben M. Chen, "Sea-U-Dragon, a light-weight
+   underwater unmanned vehicles for robot-environment interaction," completed.
+    2. <strong>S. Gao</strong>, W. Ding, Q. Ren, and Ben M. Chen, "UDE-based Dynamic Motion Force Control of
+   Mobile Manipulators," completed.
 </body>
 </html>
 
