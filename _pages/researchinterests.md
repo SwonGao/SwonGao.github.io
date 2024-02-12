@@ -27,6 +27,12 @@ author_profile: true
 </head>
 <body>
     <h2>Unmanned Underwater Vehicle</h2>
+    <div class="video-container">
+        <video controls>
+            <source src="../files/uuv_rei.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
     <h3>Ongoing work</h3>
     <h2>Mobile Manipulator</h2>
     <div class="video-container">
