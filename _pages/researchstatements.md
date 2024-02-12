@@ -20,8 +20,8 @@ author_profile: true
             justify-content: space-around;
         } */
         .video-container {
-            text-align: center; /* 使视频和文本居中显示 */
-            margin-bottom: 3px; /* 在视频容器底部添加一些间隙 */
+            text-align: center;
+            /* margin-bottom: 3px;  */
         }
         .video-container p {
             color: #666; /* 设置备注文本的颜色 */
@@ -29,7 +29,7 @@ author_profile: true
         }
         video {
             max-width: 48%; /* 视频宽度调整为容器宽度的一半，以便两个视频并排显示 */
-            margin: 10px; /* 视频之间和容器边缘的间隔 */
+            margin: 3px; /* 视频之间和容器边缘的间隔 */
         }
     </style>
 </head>
