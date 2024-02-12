@@ -27,10 +27,10 @@ author_profile: true
             color: #666; /* 设置备注文本的颜色 */
             font-size: 14px; /* 设置备注文本的大小 */
         }
-        /* video {
+        video {
             max-width: 48%; /* 视频宽度调整为容器宽度的一半，以便两个视频并排显示 */
             margin: 10px; /* 视频之间和容器边缘的间隔 */
-        } */
+        }
     </style>
 </head>
 <body>
