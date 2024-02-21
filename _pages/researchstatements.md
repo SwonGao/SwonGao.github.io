@@ -36,10 +36,9 @@ author_profile: true
 </head>
 <body>
     <p>My current research focus is on robot-environment interaction (REI) of the mobile manipulator. The mobile manipulator is known for its superior mobility compared to a fixed-base manipulator, which has various applications in mobile manipulation, underwater sampling, etc. My goal is to handle mobility and interaction tasks simultaneously. </p>
-    <p>However, a prevalent challenge in the mobile manipulator is known as "dynamic coupling" between the mobile base and the manipulator. My methodologies study different modeling and control methods of mobile manipulators. On the other hand, another challenge lies in the interaction with the unknown environments. My approaches involve online learning of unknown environmental parameters, enabling adaptive responses to changes.
-    uncertainties and unknown environments. </p>
-    <!-- <p> -->
-    <!-- However, a prevalent challenge in the mobile manipulator is known as "dynamic coupling" between the mobile base and the manipulator. </p> -->
+    <p>However, a prevalent challenge in the mobile manipulator is known as "dynamic coupling" between the mobile base and the manipulator, alongside the interaction with the unknown environments. My research addresses these challenges by developing methodologies that encompass various modeling and control methods for mobile manipulators and employing online learning techniques to adapt to unknown environmental parameters, thereby enabling adaptive responses to dynamic changes, uncertainties, and unexplored environments.    </p>
+    <!-- My methodologies study different modeling and control methods of mobile manipulators. On the other hand, another challenge lies in uncertainties and unknown environments. My approaches involve online learning of unknown environmental parameters, enabling adaptive responses to changes. -->
+    <!-- My research addresses these challenges by developing methodologies that encompass various modeling and control methods for mobile manipulators and employing online learning techniques to adapt to unknown environmental parameters, thereby enabling adaptive responses to dynamic changes, uncertainties, and unexplored environments. -->
     <h2>Unmanned Underwater Vehicle</h2>
     <div class="video-container">
         <video controls>
