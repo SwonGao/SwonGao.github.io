@@ -29,13 +29,17 @@ author_profile: true
         }
         video {
             max-width: 48%; /* 视频宽度调整为容器宽度的一半，以便两个视频并排显示 */
-            margin: 3px; /* 视频之间和容器边缘的间隔 */
+            margin: 3px; /* 视频之间和容器边缘的间隔The mobile manipulator is known for its superior mobility compared to a fixed-base manipulator. It has various applications in mobile manipulation, underwater sampling, etc. 
+ */
         }
     </style>
 </head>
 <body>
-    <p>My current research focus is on robot-environment interaction (REI) of the mobile manipulator. The mobile manipulator is known for its superior mobility compared to a manipulator on a fixed base and we aim to handle mobility and interaction tasks simultaneously. It has various applications in mobile manipulation, underwater sampling, etc. 
-    However, a prevalent challenge in the mobile manipulator is known as "dynamic coupling" between the mobile base and the manipulator. My methodologies study different modeling and control methods of mobile manipulators. On the other hand, another challenge lies in the interaction with the unknown environments. My approaches involve online learning of unknown environmental parameters, enabling adaptive responses to changes.</p>
+    <p>My current research focus is on robot-environment interaction (REI) of the mobile manipulator. The mobile manipulator is known for its superior mobility compared to a fixed-base manipulator, which has various applications in mobile manipulation, underwater sampling, etc. My goal is to handle mobility and interaction tasks simultaneously. </p>
+    <p>However, a prevalent challenge in the mobile manipulator is known as "dynamic coupling" between the mobile base and the manipulator. My methodologies study different modeling and control methods of mobile manipulators. On the other hand, another challenge lies in the interaction with the unknown environments. My approaches involve online learning of unknown environmental parameters, enabling adaptive responses to changes.
+    uncertainties and unknown environments. </p>
+    <!-- <p> -->
+    <!-- However, a prevalent challenge in the mobile manipulator is known as "dynamic coupling" between the mobile base and the manipulator. </p> -->
     <h2>Unmanned Underwater Vehicle</h2>
     <div class="video-container">
         <video controls>
