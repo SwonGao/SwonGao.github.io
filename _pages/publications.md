@@ -21,7 +21,7 @@ author_profile: true
     <h3>Ongoing work</h3>
     <ol>
         <li><strong>S. Gao</strong>, R. Yan, Z. Zhao, M. Dou, Q. Ren, and Ben M. Chen, "Sea-U-Dragon, a light-weight
-            underwater unmanned vehicles for robot-environment interaction," completed.</li>
+            unmanned underwater vehicles for robot-environment interaction," completed.</li>
         <li><strong>S. Gao</strong>, W. Ding, Q. Ren, and Ben M. Chen, "UDE-based Dynamic Motion Force Control of
             Mobile Manipulators," completed.</li>
     </ol>
