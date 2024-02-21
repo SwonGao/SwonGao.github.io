@@ -34,7 +34,8 @@ author_profile: true
     </style>
 </head>
 <body>
-    <p>My current research focus is on robot-environment interaction (REI) in dynamic environments. The mobile manipulator is known for its superior mobility compared to a manipulator on a fixed base and we aim to handle mobility and interaction tasks simultaneously.  It has various applications in mobile manipulation, underwater sampling, etc. However, a prevalent challenge in the mobile manipulator is known as "dynamic coupling" between the mobile base and the manipulator. My methodologies study different modeling and control methods of mobile manipulators. On the other hand, another challenge lies in the interaction with the unknown environments. My approaches involve online learning of unknown environmental parameters, enabling adaptive responses to changes.</p>
+    <p>My current research focus is on robot-environment interaction (REI) of the mobile manipulator. The mobile manipulator is known for its superior mobility compared to a manipulator on a fixed base and we aim to handle mobility and interaction tasks simultaneously. It has various applications in mobile manipulation, underwater sampling, etc. 
+    However, a prevalent challenge in the mobile manipulator is known as "dynamic coupling" between the mobile base and the manipulator. My methodologies study different modeling and control methods of mobile manipulators. On the other hand, another challenge lies in the interaction with the unknown environments. My approaches involve online learning of unknown environmental parameters, enabling adaptive responses to changes.</p>
     <h2>Unmanned Underwater Vehicle</h2>
     <div class="video-container">
         <video controls>
