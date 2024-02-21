@@ -41,7 +41,7 @@ author_profile: true
     <!-- My research addresses these challenges by developing methodologies that encompass various modeling and control methods for mobile manipulators and employing online learning techniques to adapt to unknown environmental parameters, thereby enabling adaptive responses to dynamic changes, uncertainties, and unexplored environments. -->
     <h2>Unmanned Underwater Vehicle</h2>
     <p>Despite the growing advancements in coastal water, challenges exists in UUV interacting with the dynamic and disturbed underwater environment. Due to high density and viscosity of the water, The impact of water on UUV movement is significant. Besides, the inherent uncertainties in underwater positioning and navigation further complicate the UUV's operation, making it challenging to operate underwater REI tasks. To solve this, this work proposes a system-oriented approach to explore a lightweight UUV called Sea-U-Dragon. 
-    The flexible end effector is designed to perform interactive tasks and a UDE-based dynamic motion/force controller is implemented. 
+    The flexible end effector is designed to perform interactive tasks and a uncertainty disturbance estimator(UDE)-based dynamic motion/force controller is implemented. 
     hardware, model, control, interaction. 
     </p>
     <div class="video-container">
