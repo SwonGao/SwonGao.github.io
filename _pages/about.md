@@ -16,14 +16,14 @@ My research interest lies in robotics. Currently, I am focusing on the robot-env
 Education
 ======
 * B.Eng. in Automation, University of Science and Technology of China, 2020
-* Ph.D in Mechanical and Automation Engineering, The Chinese University of Hong Kong, 2024 (expected)
+* Ph.D. in Mechanical and Automation Engineering, The Chinese University of Hong Kong, 2024 (expected)
 
-Work experience
+<!-- Work experience
 ======
 * Summer 2019: Internship
   * Github University
   * Duties included: Tagging issues
-  * Supervisor: Professor Git
+  * Supervisor: Professor Git -->
 
 Skills
 ======
@@ -40,7 +40,7 @@ Teaching
 
 Service
 ======
-* Reviewer for Unmanned Systems, Journal of Bionic Engineering.
+* Reviewer for Unmanned Systems, Journal of Bionic Engineering, Frontiers of Information Technology & Electronic Engineering.
 
 <!--
 Example: editing a markdown file for a talk
