@@ -21,7 +21,7 @@ author_profile: true
 <body>
     <!-- <h2>PDF Display in Web Page</h2> -->
     <div class="pdf-container">
-        <iframe src="../files/CV.pdf" width="100%" height="900px"></iframe>
+        <iframe src="../files/CV - GAO Songqun.pdf" width="100%" height="900px"></iframe>
     </div>
 </body>
 </html>
