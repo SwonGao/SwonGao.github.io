@@ -11,7 +11,7 @@ redirect_from:
 
 Advisor: Prof. Ben M. Chen
 
-My research interest lies in robotics. Currently, I am focusing on the robot-environment interaction and unmanned underwater vehicles.
+My research interest lies in robotics. Currently, I am focusing on robot-environment interaction of mobile manipulators and unmanned underwater vehicles.
 
 Education
 ======
