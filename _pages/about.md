@@ -29,6 +29,7 @@ Skills
 ======
 * Programming skills: Python, C++, MATLAB
 * ROS, Gazebo, Pybullet
+* Stable-Baseline3, PyTorch, docker
 * Solidworks
   <!-- * Sub-skill 2.3 -->
 
