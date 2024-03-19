@@ -20,6 +20,7 @@ author_profile: true
     <h2>2024</h2>
     <h3>Ongoing work</h3>
     <ol>
+        <li><strong>S. Gao</strong>, R. Yan, Z. Zhao, M. Dou, X. Liu, D. Huang, Q. Ren, and Ben M. Chen, "Dynamic Modeling of a Lightweight Unmanned Underwater Vehicle: Sea-U-Dragon," submitted to Chinese Control Conference, 2024.</li>
         <li><strong>S. Gao</strong>, R. Yan, Z. Zhao, M. Dou, Q. Ren, and Ben M. Chen, "Sea-U-Dragon, a light-weight
             unmanned underwater vehicles for robot-environment interaction," completed.</li>
         <li><strong>S. Gao</strong>, W. Ding, Q. Ren, and Ben M. Chen, "UDE-based Dynamic Motion Force Control of
