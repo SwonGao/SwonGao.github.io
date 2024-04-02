@@ -20,11 +20,10 @@ author_profile: true
     <h2>2024</h2>
     <h3>Ongoing work</h3>
     <ol>
-        <li><strong>S. Gao</strong>, R. Yan, Z. Zhao, M. Dou, X. Liu, D. Huang, Q. Ren, and Ben M. Chen, "Dynamic Modeling of a Lightweight Unmanned Underwater Vehicle: Sea-U-Dragon," submitted to Chinese Control Conference, 2024.</li>
         <li><strong>S. Gao</strong>, R. Yan, Z. Zhao, M. Dou, Q. Ren, and Ben M. Chen, "Sea-U-Dragon, a light-weight
             unmanned underwater vehicles for robot-environment interaction," completed.</li>
         <li><strong>S. Gao</strong>, W. Ding, Q. Ren, and Ben M. Chen, "UDE-based Dynamic Motion Force Control of
-            Mobile Manipulators," completed.</li>
+            Mobile Manipulators," <em>ArXiv, abs/2404.00443</em>, 2024.</li>
     </ol>
     <h3>Journal Articles</h3>
     <ol>
@@ -33,6 +32,7 @@ author_profile: true
     <h3>Conference Proceedings</h3>
     <ol>
         <li>Z. Zhao, Y. Zhai, C. Gao, W. Ding, R. Yan, <strong>S. Gao</strong>, B. Han, X. Liu, Z. Guo and B. M. Chen, Sea-U-Foil: A hydrofoil marine vehicle with multi-modal locomotion, To be presented at <em>the 2024 IEEE International Conference on Robotics and Automation (ICRA)</em>, Yokohama, Japan, May 2024.</li>
+        <li><strong>S. Gao</strong>, R. Yan, Z. Zhao, M. Dou, X. Liu, D. Huang, Q. Ren, and Ben M. Chen, "Dynamic Modeling of a Lightweight Unmanned Underwater Vehicle: Sea-U-Dragon," to be presented at <em>the 2024 Chinese Control Conference</em>, 2024.</li>
     </ol>
     <h2>2023</h2>
     <h3>Conference Proceedings</h3>
