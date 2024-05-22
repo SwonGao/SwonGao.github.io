@@ -62,5 +62,7 @@ author_profile: true
         </video>
         <p>Experiment on dynamic motion/force tracking. The proposed method outperfroms impedance control in our mobile manipulator platform.</p>
     </div>
+    <p> After that, we consider REI with unknown environments. To address problems of poor adaptability and limited generalization beyond pre-trained environments, we combine Extended Kalman Filter (EKF) with Reinforcement Learning (RL), designated as the EKF-RL framework. Within this framework, EKF is utilized to integrate with the system dynamics, enabling the estimation of characteristics of unknown environments. This integration aims to improve the robustness of the system under the lack of environmental information. Concurrently, the RL model facilitates the real-time optimization and tuning of impedance parameters, thereby improving the system's dynamic interaction capabilities.
+    </p>
 </body>
 </html>
