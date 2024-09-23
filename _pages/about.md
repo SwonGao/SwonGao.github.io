@@ -33,7 +33,7 @@ Skills
 
 Awards
 ======
-* Best Paper Finalist for the paper entitled Sea-U-Dragon: A Lightweight Unmanned Underwater Vehicle for Robot-Environment Interaction in CIS-RAM 2024, 8-11 August, 2024 - Hangzhou, China
+* Finalist, CIS-RAM 2024
   
 Teaching
 ======
