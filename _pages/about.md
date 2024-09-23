@@ -9,14 +9,12 @@ redirect_from:
 
 {% include base_path %}
 
-Advisor: Prof. Ben M. Chen
-
 My research interest lies in robotics. Currently, I am focusing on robot-environment interaction of mobile manipulators and unmanned underwater vehicles.
 
 Education
 ======
 * B.Eng. in Automation, University of Science and Technology of China, 2020
-* Ph.D. in Mechanical and Automation Engineering, The Chinese University of Hong Kong, 2024 (expected)
+* Ph.D. in Mechanical and Automation Engineering, The Chinese University of Hong Kong, 2024
 
 <!-- Work experience
 ======
@@ -33,6 +31,9 @@ Skills
 * Solidworks
   <!-- * Sub-skill 2.3 -->
 
+Awards
+======
+* Best Paper Finalist for the paper entitled Sea-U-Dragon: A Lightweight Unmanned Underwater Vehicle for Robot-Environment Interaction in CIS-RAM 2024, 8-11 August, 2024 - Hangzhou, China
   
 Teaching
 ======
@@ -42,7 +43,7 @@ Teaching
 Service
 ======
 * Reviewer for Unmanned Systems, Journal of Bionic Engineering, Frontiers of Information Technology & Electronic Engineering.
-
+* Cochair in CIS-RAM 2024
 <div id="clstr_globe_container" style="width: 10px; height: 10px; display: none;"> <!-- 设置容器大小 -->
   <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=cqrRugXKoeaCbQet-0SMIO5A1FJPBlbvoErYXNNzg2c"></script>
 </div>
