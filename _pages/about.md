@@ -43,7 +43,7 @@ Teaching
 Service
 ======
 * Reviewer for Unmanned Systems, Journal of Bionic Engineering, Frontiers of Information Technology & Electronic Engineering.
-* Cochair in CIS-RAM 2024
+* Cochair for CIS-RAM 2024
 <div id="clstr_globe_container" style="width: 10px; height: 10px; display: none;"> <!-- 设置容器大小 -->
   <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=cqrRugXKoeaCbQet-0SMIO5A1FJPBlbvoErYXNNzg2c"></script>
 </div>
