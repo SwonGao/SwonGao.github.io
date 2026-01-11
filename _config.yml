@@ -81,13 +81,13 @@ analytics:
 # Site Author
 author:
   name             : "Songqun Gao"
-  avatar           : "profile.JPG"
-  bio              : "Fourth Year Ph.D. Student at The Chinese University of Hong Kong (CUHK)"
-  location         : "Hong Kong SAR"
+  avatar           : "profile.png"
+  bio              : "PostDoc at Università di Trento (UniTN)"
+  location         : "Trento, Italy"
   employer         : 
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=zQugSIgAAAAJ&hl=zh-CN&oi=ao"
-  email            : "sqgao@mae.cuhk.edu.hk"
+  email            : "songqun.gao@unitn.it"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :

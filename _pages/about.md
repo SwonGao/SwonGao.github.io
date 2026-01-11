@@ -23,12 +23,12 @@ Education
   * Duties included: Tagging issues
   * Supervisor: Professor Git -->
 
-Skills
+<!-- Skills
 ======
 * Programming skills: Python, C++, MATLAB
 * ROS, Gazebo, Pybullet
 * Stable-Baseline3, PyTorch, docker
-* Solidworks
+* Solidworks -->
   <!-- * Sub-skill 2.3 -->
 
 Awards
