@@ -21,7 +21,7 @@ author_profile: true
     <ol>
         <li><strong>S. Gao</strong>, Y. Zhu, W. Ding, M. Cheng, Q. Ren, and Ben M. Chen, "Motion-force control of mobile manipulators via extended uncertainty and disturbance estimation," <em>Control Engineering Practice, vol. 167, pp. 106650</em>, 2026. <a href="https://www.sciencedirect.com/science/article/abs/pii/S0967066125004125" target="_blank">[link]</a></li>
         <li>X. Liu, M. Dou, R. Yan, D. Huang, <strong>S. Gao</strong>, B. Wang, J. Cui, Q. Ren, L. Dou, Z. Gao, J. Chen and B. M. Chen, TJ-FlyingFish: An unmanned morphable aerial-aquatic vehicle system, <em>Unmanned Systems</em>, vol. 12, no. 02, pp. 409-428, 2024. <a href="https://www.worldscientific.com/doi/abs/10.1142/S230138502441019X" target="_blank">[link]</a></li>
-        <li><strong>S. Gao</strong>, Y. Ding and Ben M. Chen, "A Frontier-Based Coverage Path Planning Algorithm for Robot Exploration in Unknown Environment," <em>2020 39th Chinese Control Conference (CCC)</em>, Shenyang, China, 2020, pp. 3920-3925. <a href="https://ieeexplore.ieee.org/document/9188784" target="_blank">[link]</a></li>
+        <li><strong>S. Gao</strong> and Z. Kan, "Effective Dynamic Coverage Control for Heterogeneous Driftless Control Affine Systems," in <em>IEEE Control Systems Letters</em>, vol. 5, no. 6, pp. 2018-2023, Dec. 2021. <a href="https://ieeexplore.ieee.org/document/9302698" target="_blank">[link]</a></li>
     </ol>
     <h3>Conference Proceedings</h3>
     <ol>
@@ -30,7 +30,7 @@ author_profile: true
         <li><strong>S. Gao</strong>, R. Yan, Z. Zhao, M. Dou, X. Liu, D. Huang, Q. Ren, and Ben M. Chen, "Dynamic Modeling of a Lightweight Unmanned Underwater Vehicle: Sea-U-Dragon," to be presented at <em>the 2024 Chinese Control Conference</em>, 2024.</li>
         <li>Z. Zhao, Y. Zhai, C. Gao, W. Ding, R. Yan, <strong>S. Gao</strong>, B. Han, X. Liu, Z. Guo and B. M. Chen, Sea-U-Foil: A hydrofoil marine vehicle with multi-modal locomotion, To be presented at <em>the 2024 IEEE International Conference on Robotics and Automation (ICRA)</em>, Yokohama, Japan, May 2024.</li>
         <li>X. Liu, M. Dou, D. Huang, <strong>S. Gao</strong>, R. Yan, B. Wang, J. Cui, Q. Ren, L. Dou, Z. Gao, J. Chen, B. M. Chen, "TJ-FlyingFish: Design and Implementation of an Aerial-Aquatic Quadrotor with Tiltable Propulsion Units,"<em>2023 IEEE International Conference on Robotics and Automation (ICRA)</em>, London, United Kingdom, 2023, pp. 7324-7330. <a href="https://ieeexplore.ieee.org/document/10160899" target="_blank">[link]</a></li>
-        <li><strong>S. Gao</strong> and Z. Kan, "Effective Dynamic Coverage Control for Heterogeneous Driftless Control Affine Systems," in <em>IEEE Control Systems Letters</em>, vol. 5, no. 6, pp. 2018-2023, Dec. 2021. <a href="https://ieeexplore.ieee.org/document/9302698" target="_blank">[link]</a></li>
+        <li><strong>S. Gao</strong>, Y. Ding and Ben M. Chen, "A Frontier-Based Coverage Path Planning Algorithm for Robot Exploration in Unknown Environment," <em>2020 39th Chinese Control Conference (CCC)</em>, Shenyang, China, 2020, pp. 3920-3925. <a href="https://ieeexplore.ieee.org/document/9188784" target="_blank">[link]</a></li>
     </ol>
 </body>
 </html>
