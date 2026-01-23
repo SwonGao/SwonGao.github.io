@@ -34,7 +34,7 @@ author_profile: true
     </style>
 </head>
 <body>
-    <p>My current research focus is on the robot-environment interaction (REI) of the mobile manipulator (on both ground and underwater vehicles). The mobile manipulator is known for its superior mobility compared to a fixed-base manipulator, which has various applications in mobile manipulation, underwater sampling, etc. My goal is to handle mobility and interaction tasks simultaneously. </p>
+    <p>My research focus in my Ph.D. study is on the robot-environment interaction (REI) of the mobile manipulator (on both ground and underwater vehicles). The mobile manipulator is known for its superior mobility compared to a fixed-base manipulator, which has various applications in mobile manipulation, underwater sampling, etc. My goal is to handle mobility and interaction tasks simultaneously. </p>
     <h2>Unmanned Underwater Vehicle (UUV)</h2>
     <p>Despite the growing advancements of UUV in coastal water, challenges exist in UUV interacting with the dynamic and disturbed underwater environment. Due to the high density and viscosity of the water, The impact of water on UUV movement is significant. Besides, the inherent uncertainties in underwater positioning and navigation further complicate the UUV's operation, making it challenging to operate underwater REI tasks. To solve this, this work proposes a system-oriented approach to explore a lightweight UUV called Sea-U-Dragon. My research on Sea-U-Dragon encompasses hardware design, hydrodynamic modeling, control, and interaction perspectives.
     </p>

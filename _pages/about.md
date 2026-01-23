@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-My research interest lies in robotics. Currently, I am focusing on robot-environment interaction of mobile manipulators and unmanned underwater vehicles.
+Currently, I am a PostDoc at University of Trento, focusing on optimization in robotics; 
 
 Education
 ======
@@ -44,6 +44,7 @@ Service
 ======
 * Reviewer for Unmanned Systems, Journal of Bionic Engineering, Frontiers of Information Technology & Electronic Engineering.
 * Cochair for CIS-RAM 2024
+* Program Committe for I-RIM 3D 2025
 <div id="clstr_globe_container" style="width: 10px; height: 10px; display: none;"> <!-- 设置容器大小 -->
   <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=cqrRugXKoeaCbQet-0SMIO5A1FJPBlbvoErYXNNzg2c"></script>
 </div>
