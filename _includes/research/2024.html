@@ -1,0 +1,42 @@
+<section id="phd-study">
+    <h2>Ph.D. Study</h2>
+    <p>My research focus in my Ph.D. study is on the robot-environment interaction (REI) of the mobile manipulator (on both ground and underwater vehicles). The mobile manipulator is known for its superior mobility compared to a fixed-base manipulator, which has various applications in mobile manipulation, underwater sampling, etc. My goal is to handle mobility and interaction tasks simultaneously.</p>
+
+    <h3>Unmanned Underwater Vehicle (UUV)</h3>
+    <p>Despite the growing advancements of UUV in coastal water, challenges exist in UUV interacting with the dynamic and disturbed underwater environment. Due to the high density and viscosity of the water, The impact of water on UUV movement is significant. Besides, the inherent uncertainties in underwater positioning and navigation further complicate the UUV's operation, making it challenging to operate underwater REI tasks. To solve this, this work proposes a system-oriented approach to explore a lightweight UUV called Sea-U-Dragon. My research on Sea-U-Dragon encompasses hardware design, hydrodynamic modeling, control, and interaction perspectives.</p>
+
+    <div class="video-container">
+        <video controls>
+            <source src="../files/uuv_rei.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <p>Motion/force tracking of Sea-U-Dragon.</p>
+    </div>
+
+    <h3>Mobile Manipulator</h3>
+    <div class="pdf-container">
+        <object data="../files/graphicalab_Cep2026.pdf" type="application/pdf" width="100%" height="600">
+            <p>Your browser does not support PDFs. <a href="../files/graphicalab_Cep2026.pdf">Download the PDF</a>.</p>
+        </object>
+        <p>Graphical abstract for CEP 2026.</p>
+    </div>
+    <p>Mobile manipulators are increasingly used in complex environments for dynamic interaction tasks such as cleaning, inspection, and spraying. 
+        However, base acceleration, turning, and ground irregularities introduce strong dynamic coupling between the mobile base and the manipulator, 
+        leading to unstable contact, degraded control accuracy, and safety risks. Existing model-based or learning-based methods either rely on accurate
+         full-system modeling or suffer from slow adaptation under changing conditions, limiting their effectiveness in high-dynamic scenarios.
+    </p>
+    <p>
+        This work proposes an Extended Uncertainty and Disturbance Estimator (Extended UDE)-based control framework that integrates base motion
+         effects into a simplified manipulator model and compensates dynamic coupling through a feedforward–feedback structure using only base 
+         velocity signals. Experiments on a representative wall-cleaning task show that the proposed method significantly reduces end-effector
+          motion deviations and contact force fluctuations under dynamic base motion, improving interaction stability and task performance in real-world conditions.
+    </p>
+    <div class="video-container">
+        <video controls>
+            <source src="../files/cep2026.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <p>Experiment on dynamic motion/force tracking.</p>
+    </div>
+    <p>After that, we consider REI with unknown environments. To address problems of poor adaptability and limited generalization beyond pre-trained environments, we combine Extended Kalman Filter (EKF) with Reinforcement Learning (RL), designated as the EKF-RL framework. Within this framework, EKF is utilized to integrate with the system dynamics, enabling the estimation of characteristics of unknown environments. This integration aims to improve the robustness of the system under the lack of environmental information. Concurrently, the RL model facilitates the real-time optimization and tuning of impedance parameters, thereby improving the system's dynamic interaction capabilities.</p>
+</section>

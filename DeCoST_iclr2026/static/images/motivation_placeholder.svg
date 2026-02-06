@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">Motivation Figure Placeholder</title>
+  <desc id="desc">Placeholder box for the motivation figure. Replace with the real figure from the paper.</desc>
+  <rect width="1200" height="700" fill="#f8fafc" />
+  <rect x="40" y="40" width="1120" height="620" rx="24" fill="#e2e8f0" stroke="#94a3b8" stroke-width="3" />
+  <g fill="none" stroke="#94a3b8" stroke-width="3">
+    <line x1="80" y1="80" x2="1120" y2="620" />
+    <line x1="1120" y1="80" x2="80" y2="620" />
+  </g>
+  <text x="600" y="330" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="36" fill="#475569">Motivation Figure</text>
+  <text x="600" y="380" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="20" fill="#64748b">Replace with real figure from the paper</text>
+</svg>

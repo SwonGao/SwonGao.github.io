@@ -31,6 +31,11 @@ Education
 * Solidworks -->
   <!-- * Sub-skill 2.3 -->
 
+Selected Publications
+======
+* **S. Gao**, Z. Ruan, P. Floor, M. Roveri, L. Palopoli, and D. Fontanelli, "Learning to Solve Orienteering Problem with Time Windows and Variable Profits," *International Conference on Learning Representations (ICLR), 2026 (accepted)*. [project page](/DeCoST_iclr2026/)
+* **S. Gao**, Y. Zhu, W. Ding, M. Cheng, Q. Ren, and Ben M. Chen, "Motion-force control of mobile manipulators via extended uncertainty and disturbance estimation," *Control Engineering Practice, vol. 167, pp. 106650*, 2026. [link](https://www.sciencedirect.com/science/article/abs/pii/S0967066125004125)
+
 Awards
 ======
 * Finalist, CIS-RAM 2024

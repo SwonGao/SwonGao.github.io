@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Publications"
+title: "Selected Publications"
 permalink: /publications/
 author_profile: true
 ---
@@ -20,10 +20,11 @@ author_profile: true
     <h3>Journal Articles</h3>
     <ol>
         <li><strong>S. Gao</strong>, Y. Zhu, W. Ding, M. Cheng, Q. Ren, and Ben M. Chen, "Motion-force control of mobile manipulators via extended uncertainty and disturbance estimation," <em>Control Engineering Practice, vol. 167, pp. 106650</em>, 2026. <a href="https://www.sciencedirect.com/science/article/abs/pii/S0967066125004125" target="_blank">[link]</a></li>
-        <li><strong>S. Gao</strong> and Z. Kan, "Effective Dynamic Coverage Control for Heterogeneous Driftless Control Affine Systems," in <em>IEEE Control Systems Letters</em>, vol. 5, no. 6, pp. 2018-2023, Dec. 2021. <a href="https://ieeexplore.ieee.org/document/9302698" target="_blank">[link]</a></li>
+        <li><strong>S. Gao</strong> and Z. Kan, "Effective Dynamic Coverage Control for Heterogeneous Driftless Control Affine Systems," in <em>IEEE Control Systems Letters</em>, vol. 5, no. 6, pp. 2018-2023, Dec. 2021. (Joint submission to IEEE CSL and American control conference (ACC)). <a href="https://ieeexplore.ieee.org/document/9302698" target="_blank">[link]</a></li>
     </ol>
     <h3>Conference Proceedings</h3>
     <ol>
+        <li><strong>S. Gao</strong>, Z. Ruan, P. Floor, M. Roveri, L. Palopoli, and D. Fontanelli, "Learning to Solve Orienteering Problem with Time Windows and Variable Profits," <em>International Conference on Learning Representations (ICLR)</em>, 2026. <a href="/DeCoST_iclr2026/" target="_blank">[project page]</a></li>
         <li><strong>S. Gao</strong>, R. Yan, Z. Zhao, M. Dou, Q. Ren, and Ben M. Chen, "Sea-U-Dragon, a light-weight unmanned underwater vehicles for robot-environment interaction," <em>2024 IEEE International Conference on Cybernetics and Intelligent Systems (CIS) and IEEE Conference on Robotics, Automation and Mechatronics (RAM)</em>, 2024.</li>
         <li><strong>S. Gao</strong>, R. Yan, Z. Zhao, M. Dou, X. Liu, D. Huang, Q. Ren, and Ben M. Chen, "Dynamic Modeling of a Lightweight Unmanned Underwater Vehicle: Sea-U-Dragon," <em>the 2024 Chinese Control Conference</em>, 2024.</li>
         <li><strong>S. Gao</strong>, Y. Ding and Ben M. Chen, "A Frontier-Based Coverage Path Planning Algorithm for Robot Exploration in Unknown Environment," <em>2020 39th Chinese Control Conference (CCC)</em>, Shenyang, China, 2020, pp. 3920-3925. <a href="https://ieeexplore.ieee.org/document/9188784" target="_blank">[link]</a></li>

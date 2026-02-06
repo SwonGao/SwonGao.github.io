@@ -1,0 +1,93 @@
+The orienteering problem with time windows and variable profits (OPTWVP) is
+common in many real-world applications and involves continuous time variables.
+Current approaches fail to develop an efficient solver for this orienteering problem
+variant with discrete and continuous variables. In this paper, we propose a learning-
+based two-stage DEcoupled discrete-Continuous optimization with Service-time-
+guided Trajectory (DeCoST), which aims to effectively decouple the discrete and
+continuous decision variables in the OPTWVP problem, while enabling efficient
+and learnable coordination between them. In the first stage, a parallel decoding
+structure is employed to predict the path and the initial service time allocation.
+The second stage optimizes the service times through a linear programming (LP)
+formulation and provides a long-horizon learning of service time estimation. We
+rigorously prove the global optimality of the second-stage solution. Experiments
+on OPTWVP instances demonstrate that DeCoST outperforms both state-of-the-art
+constructive solvers and the latest meta-heuristic algorithms in terms of solution
+quality and computational efficiency, achieving up to 6.6x inference speedup
+on instances with fewer than 500 nodes. Moreover, the proposed framework is
+compatible with various constructive solvers and consistently enhances the solution
+quality for OPTWVP.
+
+The Vehicle Routing Problem (VRP) is one of the most fundamental and extensively studied combina-
+torial optimization problems (COP), aiming to determine which nodes to visit and in what order under
+given constraints. The orienteering Problem (OP), an important variant of VRP, assumes a fixed total
+time budget and requires selecting a subset of nodes to visit in order to maximize the total collected
+reward, which have been widely applied in practical scenarios such as factory scheduling (Gannouni
+et al., 2020), logistics transportation (Baty et al., 2024), robotic planning (Ding et al., 2025; Naik
+et al., 2024), etc. However, in many real-world tasks, the two basic assumptions of the OP often
+do not hold: fixed rewards and always-accessible nodes. In practice, rewards usually increase with
+longer service times (variable profit) (Khodadadian et al., 2022; Wan et al., 2024), and many nodes
+are only accessible within specific time windows (Chen et al., 2024). Thus, the optimizer must
+decide not only which nodes to visit, but also the service time at each node. These requirements
+naturally give rise to the Orienteering Problem with Time Windows and Variable Profits (OPTWVP)
+(Marzal & Sebastia, 2024; Yu et al., 2019), which simultaneously involves discrete route planning and
+continuous service-time allocation under a fixed time budget to maximize the total reward. Figure 1
+(a) illustrates a representative example of OPTWVP applications.
+Compared with classical VRPs, OPTWVP represents a more realistic and challenging class of VRP in
+which discrete routing decisions and continuous service-time allocations are tightly coupled: Unlike
+classical VRPs that determine only the routing sequence, OPTWVP requires jointly optimizing
+the route and the service time spent at each node, because the reward depends directly on service
+
+times on vertices. A selected route dynamically shapes the feasible region of service time decisions
+through travel times and time window constraints, while the allocated service times, in turn, affect the
+obtained rewards and influence the overall route decisions. This bidirectional dependency prevents
+the two components from being optimized independently, causing an exponential expansion of the
+joint search space.
+At present, the main strategies for addressing OP/VRP variants can be generally divided into heuris-
+tic/metaheuristic methods and learning-based neural combinatorial optimization (NCO) methods.
+Heuristic and metaheuristic algorithms typically follow a multistage strategy, where an initial feasible
+solution is first generated and subsequently refined with local search improvements (Nikzad et al.,
+2023; Pirabán-Ramírez et al., 2022; Canca et al., 2024). Although these approaches demonstrate
+good performance on specific variants, their performances are often heavily limited by manually
+designed heuristics and exhaustive refinement procedures. On the other hand, the rapidly growing
+NCO methods (Kool et al., 2019; Kwon et al., 2020) seek to apply learning-based approaches to
+increase the search efficiency in classic VRPs. In pursuit of more practical applicability (Bi et al.,
+2024; Hottung et al., 2025a; Wang et al., 2025), more recent studies in NCO also explore VRP
+variants with constraints. They adopt problem deconstruction methods (Hottung et al., 2025b; Kuang
+et al., 2024) to decompose the original problem by predicting a certain number of variables and then
+performing search/optimization within their local neighborhoods. However, most NCO methods
+focus solely on routing, while the joint optimization of routing and service-time allocation remains
+under-explored. In these problems, such decomposition leads to shortsighted route predictions
+that cannot anticipate optimal service times, and the subsequent local adjustments are insufficient
+to correct the structural biases introduced in the first stage. Unlike the above unsupervised NCO
+methods, current Mixed-Integer Programming (MIP) problem studies provide a similar solution to
+general MIP problems (Liu et al., 2025; Paulus & Krause, 2023; HU et al., 2024), but most of these
+methods rely on annotated data, which limits their applications. Taken together, for problems like
+OPTWVP, where discrete routing decisions and continuous service-time allocation are inherently
+interdependent, achieving an efficient and high-quality solution remains unsolved.
+In this paper, we propose DEcoupled discrete-Continuous optimization with Service-time-guided
+Trajectory (DeCoST), a learning-based two-stage collaborative framework proposed for solving
+OPTWVP-like problems. Leveraging the structure of OPTWVP, DeCoST decomposes OPTWVP
+into a routing problem and a service time allocation problem, which effectively decouples the
+searching process while enabling efficient and learnable coordination. In the first stage, DeCoST
+employs a parallel decoder that integrates a routing decoder and a service time decoder (STD) to
+provide a trajectory generation strategy and an initial estimate of service times, which explicitly
+considers the influence of continuous variables on the quality of the solution and provides an initial
+coordination between discrete path decisions and continuous service time allocations. In the second
+stage, based on the fixed discrete path trajectory, the continuous decision variable optimization
+problem is further simplified to a linear programming (LP) problem. Especially, a service time
+optimization (STO) algorithm is applied in the second stage to guarantee parallel computation and
+maximize the total collected reward. We rigorously prove that the STO can obtain the global optimum.
+In this two-stage approach, we introduce a supervisory index, profit-weighted time allocation ratio
+(pTAR), to provide a feedback signal for service time prediction. Using a cross-stage mechanism, the
+STD learns the optimal solution to provide a global long-horizon estimation of service time in the
+early trajectory decision stage, thus improving the overall quality and efficiency of the solution.
+The overall contributions of this paper are as follows.
+(1) We propose DeCoST, a learning-based two-stage approach for solving OPTWVP, where dis-
+crete routing decisions and continuous service-time allocations are decomposed, realizing the joint
+optimization of routing and service time under the constraints of time windows and variable profits.
+(2) By leveraging parallel computation of STO and the cross-stage feedback mechanism, the proposed
+two-stage approach provides a global long-horizon estimation of service time in the early route
+decision stage, enabling us to search the route and service time efficiently.
+(3) We conduct thorough experiments demonstrating that the proposed method outperforms not only
+existing state-of-the-art (SOTA) NCO approaches but also the latest metaheuristic algorithms in both
+solution quality and computational efficiency.

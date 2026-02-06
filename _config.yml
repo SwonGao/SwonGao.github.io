@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Songqun Gao"
 title_separator          : "-"
 name                     : &name "Songqun Gao"
-description              : &description "PhD Student at CUHK"
+description              : &description "PostDoc at Università di Trento (UniTN)"
 url                      : https://swongao.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "swongao.github.io"
@@ -181,6 +181,9 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
+  research:
+    output: true
+    permalink: /research/:path/
   # portfolio:
   #   output: true
   #   permalink: /:collection/:path/

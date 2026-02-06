@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="title" content="Learning to Solve Orienteering Problem with Time Windows and Variable Profits">
+  <meta name="description" content="We present DeCoST, a two-stage learning framework that decouples route decisions and continuous service-time allocation for the orienteering problem with time windows and variable profits, improving solution quality and inference speed.">
+  <meta name="keywords" content="orienteering problem, time windows, variable profits, DeCoST, vehicle routing, optimization, learning-based solver, service time allocation">
+  <meta name="author" content="Songqun Gao, Zanxi Ruan, Patrick Floor, Marco Roveri, Luigi Palopoli, Daniele Fontanelli">
+  <meta name="robots" content="index, follow">
+  <meta name="language" content="English">
+
+  <title>Learning to Solve Orienteering Problem with Time Windows and Variable Profits</title>
+
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <link rel="apple-touch-icon" href="static/images/favicon.ico">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+  <main id="main-content">
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">Learning to Solve Orienteering Problem with Time Windows and Variable Profits</h1>
+            <div class="is-size-5 publication-authors">
+              <span class="author-block">
+                <a href="https://swongao.github.io/" target="_blank" rel="noopener noreferrer">Songqun Gao</a><sup>1,3</sup>,
+              </span>
+              <span class="author-block">
+                <a href="https://www.dimi.univr.it/?ent=persona&id=90424&lang=en/" target="_blank" rel="noopener noreferrer">Zanxi Ruan</a><sup>4</sup>,
+              </span>
+              <span class="author-block">
+                <a href="https://pipple.nl/over-ons/team-pipple/#patrick-floor" target="_blank" rel="noopener noreferrer">Patrick Floor</a><sup>5</sup>,
+              </span>
+              <span class="author-block">
+                <a href="https://sites.google.com/view/marco-roveri/home" target="_blank" rel="noopener noreferrer">Marco Roveri</a><sup>2,3</sup>,
+              </span>
+              <span class="author-block">
+                <a href="https://luigipalopoli.disi.unitn.it/" target="_blank" rel="noopener noreferrer">Luigi Palopoli</a><sup>2,3</sup>,
+              </span>
+              <span class="author-block">
+                <a href="https://webapps.unitn.it/du/it/Persona/PER0047723/Curriculum/" target="_blank" rel="noopener noreferrer">Daniele Fontanelli</a><sup>1,3</sup>
+              </span>
+            </div>
+
+            <div class="is-size-6 publication-authors">
+              <span class="author-block">
+                <sup>1</sup>Department of Industrial Engineering, Università di Trento
+                <br><sup>2</sup>Department of Information Engineering and Computer Science, Università di Trento
+                <br><sup>3</sup>Interdepartmental Robotics Labs (IDRA), Università di Trento
+                <br><sup>4</sup>Department of Engineering for Innovation Medicine, Università di Verona
+                <br><sup>5</sup>Pipple, Eindhoven, Netherlands
+              </span>
+            </div>
+
+            <div class="publication-meta">
+              <div class="publication-links">
+                <a class="publication-link" href="https://openreview.net/forum?id=koIbbsfKSf" target="_blank" rel="noopener noreferrer">Paper</a>
+                <a class="publication-link" href="https://github.com/SwonGao/DeCoST" target="_blank" rel="noopener noreferrer">GitHub</a>
+              </div>
+              <div class="publication-venue">Poster at ICLR 2026</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <figure class="image">
+        <object data="./figure/approach.svg" type="image/svg+xml" class="approach-figure" aria-label="Approach overview figure">
+          <img src="./figure/approach.svg" alt="Approach overview figure">
+        </object>
+      </figure>
+      <h2 class="subtitle is-size-6">
+        Overview of the DeCoST approach: It decouples routing and service-time decisions for OPTWVP
+        with a two-stage pipeline: a parallel decoder predicts paths and initial service times, then
+        an STO algorithm to global optimality, improving solution quality and inference speed.
+        The upper part shows the two-stage optimization process, while the lower part
+        details the STO algorithm.
+      </h2>
+    </div>
+  </div>
+</section>
+
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+          The orienteering problem with time windows and variable profits
+          (OPTWVP) is common in many real-world applications and involves
+          continuous time variables. Current approaches fail to develop an
+          efficient solver for this orienteering problem variant with discrete
+          and continuous variables. In this paper, we propose a learning-based two-stage
+          DEcoupled discrete-Continuous optimization with Service-time-guided
+          Trajectory (DeCoST), which aims to effectively decouple the discrete
+          and continuous decision variables in the OPTWVP problem, while
+          enabling efficient and learnable coordination between them. In the
+          first stage, a parallel decoding structure is employed to predict
+          the path and the initial service time allocation. The second stage
+          optimizes the service times through a linear programming (LP)
+          formulation and provides a long-horizon learning of service time
+          estimation. We rigorously prove the global optimality of the
+          second-stage solution. Experiments on OPTWVP instances demonstrate
+          that DeCoST outperforms both state-of-the-art constructive solvers
+          and the latest meta-heuristic algorithms in terms of solution
+          quality and computational efficiency, achieving up to 6.6x inference
+          speedup on instances with fewer than 500 nodes. Moreover, the proposed
+          framework is compatible with various constructive solvers and 
+          consistently enhances the solution quality for OPTWVP.          
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered is-vcentered">
+      <div class="column is-6">
+        <h2 class="title is-3">Motivation</h2>
+        <div class="content">
+          <p>
+            Real-world routing tasks such as inspection, logistics, and robotic missions often
+            involve time windows and profits that depend on how long you serve each location.
+            This creates a tight coupling between discrete routing choices (which nodes to visit,
+            in what order) and continuous service-time allocation (how long to stay), making the
+            OPTWVP far more challenging than classical orienteering.
+          </p>
+          <p>
+            The figure illustrates the challenge faced by NCO methods in allocating hybrid
+            discrete-continuous decisions and capturing continuous-variable representations.
+            Existing methods either decouple routing and service times too loosely or rely on
+            heavy meta-heuristics, which scale poorly and can miss good solutions. Learning-based
+            solvers speed up inference but often fix or heuristically tune service times, losing
+            optimality. This motivates a decoupled approach that keeps routing fast while refining
+            service times globally.
+          </p>
+        </div>
+      </div>
+      <div class="column is-6">
+        <figure class="image">
+          <img src="./figure/motivation.svg" alt="Motivation figure placeholder">
+        </figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section has-background-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered is-vcentered">
+      <div class="column is-6">
+        <figure class="image">
+          <img src="./figure/problemformulation.svg" alt="Problem formulation figure placeholder">
+        </figure>
+      </div>
+      <div class="column is-6">
+        <h2 class="title is-3">Problem Formulation</h2>
+        <div class="content">
+          <p>
+            We model OPTWVP on a complete graph with a depot and tasks. Each task has a time
+            window and earns profit proportional to its service time; travel times are given.
+            A route starts/ends at the depot and must fit within a total time budget. Specifically,
+            OPTWVP combines three key aspects: 
+          </p>
+          <ul>
+            <li>(OP) Time limit on the route.</li>
+            <li>(VP) Profit increases with service time.</li>
+            <li>(TW) Each task has a feasible time window.</li>
+          </ul>
+          <p>
+            The decisions are the visit order and the service time at each visited node. The
+            objective is to maximize total profit under time-window and budget constraints.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Contributions</h2>
+        <div class="content">
+          <ul>
+            <li>We propose DeCoST, a learning-based two-stage framework for OPTWVP that decouples discrete routing and continuous service-time allocation while coordinating them effectively.</li>
+            <li>We introduce a parallel decoder with cross-stage feedback (pTAR) and an LP-based service-time optimization (STO) stage that yields global optimality for fixed routes and improves long-horizon service-time estimation.</li>
+            <li>Extensive experiments show that DeCoST outperforms state-of-the-art NCO methods and recent meta-heuristics in both solution quality and computational efficiency.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Experimental Results</h2>
+        <div class="content">
+          <p>
+            Add a concise summary of the main experimental findings here (datasets, baselines,
+            and overall improvements). You can replace this paragraph with a short, punchy
+            description once you decide the key takeaways to emphasize.
+          </p>
+          <div class="table-container">
+            <table class="table is-fullwidth is-striped is-hoverable is-narrow results-table">
+              <caption>
+                Performance comparison on OPTWVP under different problem sizes and time window settings.
+                <strong>Bold</strong> values denote the best performance in each setting, and <u>underlined</u>
+                values denote the second-best. Category <strong>C</strong> refers to NCO methods, and
+                <strong>H</strong> refers to heuristic baselines. The default unit for runtime is milliseconds (ms).
+              </caption>
+              <thead>
+                <tr>
+                  <th rowspan="2">Cat.</th>
+                  <th rowspan="2" class="method">Method</th>
+                  <th colspan="3">n = 50, TW = 100</th>
+                  <th colspan="3">n = 100, TW = 100</th>
+                </tr>
+                <tr>
+                  <th>Score ↑</th>
+                  <th>Gap ↓</th>
+                  <th>Runtime ↓</th>
+                  <th>Score ↑</th>
+                  <th>Gap ↓</th>
+                  <th>Runtime ↓</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>--</td>
+                  <td class="method">B&amp;C</td>
+                  <td>15.2</td>
+                  <td>0.00%</td>
+                  <td>200</td>
+                  <td>26.1</td>
+                  <td>0.00%</td>
+                  <td>1023</td>
+                </tr>
+                <tr class="category-start">
+                  <td rowspan="2">H</td>
+                  <td class="method">Greedy-PRS</td>
+                  <td>12.9</td>
+                  <td>15.7%</td>
+                  <td>44</td>
+                  <td>21.9</td>
+                  <td>16.2%</td>
+                  <td>48</td>
+                </tr>
+                <tr>
+                  <td class="method">ILS</td>
+                  <td><u>14.5</u></td>
+                  <td><u>4.34%</u></td>
+                  <td>2109</td>
+                  <td>24.9</td>
+                  <td>4.2%</td>
+                  <td>7122</td>
+                </tr>
+                <tr class="category-start">
+                  <td rowspan="4">C</td>
+                  <td class="method">GFACS (Greedy)</td>
+                  <td>11.1</td>
+                  <td>25.7%</td>
+                  <td>94.2</td>
+                  <td>22.6</td>
+                  <td>13.4%</td>
+                  <td>98.2</td>
+                </tr>
+                <tr>
+                  <td class="method">GFACS</td>
+                  <td>12.3</td>
+                  <td>18.6%</td>
+                  <td>4310</td>
+                  <td><u>25.2</u></td>
+                  <td><u>3.38%</u></td>
+                  <td>6760</td>
+                </tr>
+                <tr>
+                  <td class="method">POMO</td>
+                  <td>11.3</td>
+                  <td>25.3%</td>
+                  <td>46.6</td>
+                  <td>11.5</td>
+                  <td>55.7%</td>
+                  <td>52.3</td>
+                </tr>
+                <tr>
+                  <td class="method"><strong>DeCoST (Ours)</strong></td>
+                  <td><strong>15.1</strong></td>
+                  <td><strong>1.06%</strong></td>
+                  <td>94.0</td>
+                  <td><strong>25.6</strong></td>
+                  <td><strong>1.97%</strong></td>
+                  <td>158</td>
+                </tr>
+                <tr class="results-divider section-break">
+                  <th rowspan="2">Cat.</th>
+                  <th rowspan="2" class="method">Method</th>
+                  <th colspan="3">n = 50, TW = 500</th>
+                  <th colspan="3">n = 100, TW = 500</th>
+                </tr>
+                <tr class="results-divider">
+                  <th>Score ↑</th>
+                  <th>Gap ↓</th>
+                  <th>Runtime ↓</th>
+                  <th>Score ↑</th>
+                  <th>Gap ↓</th>
+                  <th>Runtime ↓</th>
+                </tr>
+                <tr>
+                  <td>--</td>
+                  <td class="method">B&amp;C</td>
+                  <td>51.9</td>
+                  <td>0.00%</td>
+                  <td>1346s</td>
+                  <td>--</td>
+                  <td>--</td>
+                  <td>&gt;24h</td>
+                </tr>
+                <tr class="category-start">
+                  <td rowspan="2">H</td>
+                  <td class="method">Greedy-PRS</td>
+                  <td>46.1</td>
+                  <td>11.4%</td>
+                  <td>46.1</td>
+                  <td>79.7</td>
+                  <td>--</td>
+                  <td>51</td>
+                </tr>
+                <tr>
+                  <td class="method">ILS</td>
+                  <td><u>47.8</u></td>
+                  <td><u>7.82%</u></td>
+                  <td>1262</td>
+                  <td><u>85.0</u></td>
+                  <td>--</td>
+                  <td>8441</td>
+                </tr>
+                <tr class="category-start">
+                  <td rowspan="4">C</td>
+                  <td class="method">GFACS (Greedy)</td>
+                  <td>35.21</td>
+                  <td>31.7%</td>
+                  <td>89.8</td>
+                  <td>60.5</td>
+                  <td>--</td>
+                  <td>97.8</td>
+                </tr>
+                <tr>
+                  <td class="method">GFACS</td>
+                  <td>47.4</td>
+                  <td>8.57%</td>
+                  <td>6950</td>
+                  <td>84.4</td>
+                  <td>--</td>
+                  <td>8750</td>
+                </tr>
+                <tr>
+                  <td class="method">POMO</td>
+                  <td>31.3</td>
+                  <td>39.6%</td>
+                  <td>40.7</td>
+                  <td>54.6</td>
+                  <td>--</td>
+                  <td>60.6</td>
+                </tr>
+                <tr>
+                  <td class="method"><strong>DeCoST (Ours)</strong></td>
+                  <td><strong>51.4</strong></td>
+                  <td><strong>0.83%</strong></td>
+                  <td>60.4</td>
+                  <td><strong>88.1</strong></td>
+                  <td>--</td>
+                  <td>100</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section has-background-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered is-vcentered">
+      <div class="column is-6">
+        <h2 class="title is-3">Applications</h2>
+        <div class="content">
+          <p>
+            One concrete application is the EU Horizon Europe MAGICIAN project, which targets
+            human-robot collaboration for autonomous identification and rework of aesthetic
+            defects in manufacturing. It develops two modular robotic solutions for defect
+            analysis and defect rework, leveraging AI on multi-modal data to improve product
+            quality and worker safety.
+          </p>
+          <p>
+            In such production scenarios, many candidate defects compete for limited cycle
+            time; deciding which defects to address and how long to spend on each directly
+            affects the achievable quality. This aligns with OPTWVP-style decisions that
+            combine discrete task selection/ordering with continuous service-time allocation,
+            making fast, high-quality inference essential at scale.
+          </p>
+        </div>
+      </div>
+      <div class="column is-6">
+        <figure class="image">
+          <video autoplay controls muted loop playsinline preload="metadata" width="100%">
+            <source src="./figure/application.mp4" type="video/mp4">
+          </video>
+        </figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Acknowledgements</h2>
+        <div class="content">
+          <p>
+            This work is supported by the EU project Magician (Grant Agreement n. 101120731).
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Citation</h2>
+        <div class="content citation-block">
+          <button class="copy-btn" onclick="copyToClipboard()" type="button" aria-label="Copy citation">
+            <span class="copy-icon" aria-hidden="true">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8 8V6a2 2 0 0 1 2-2h7a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2h-2" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <rect x="4" y="8" width="10" height="12" rx="2" stroke="currentColor" stroke-width="2"/>
+              </svg>
+            </span>
+            Copy
+          </button>
+          <pre id="citation-text"><code>@inproceedings{gao2026decost,
+  title={Learning to Solve Orienteering Problem with Time Windows and Variable Profits},
+  author={Gao, Songqun and Ruan, Zanxi and Floor, Patrick and Roveri, Marco and Palopoli, Luigi and Fontanelli, Daniele},
+  booktitle={International Conference on Learning Representations (ICLR)},
+  year={2026}
+}</code></pre>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <script>
+    function copyToClipboard() {
+      const citationText = document.getElementById('citation-text').textContent;
+      navigator.clipboard.writeText(citationText).then(function() {
+        const btn = document.querySelector('.copy-btn');
+        const originalText = btn.textContent;
+        btn.textContent = 'Copied!';
+        btn.style.background = '#27ae60';
+        setTimeout(() => {
+          btn.textContent = originalText;
+          btn.style.background = '#3498db';
+        }, 2000);
+      });
+    }
+  </script>
+  </body>
+  </html>
