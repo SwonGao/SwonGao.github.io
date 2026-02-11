@@ -217,9 +217,13 @@
         <h2 class="title is-3">Experimental Results</h2>
         <div class="content">
           <p>
-            Add a concise summary of the main experimental findings here (datasets, baselines,
-            and overall improvements). You can replace this paragraph with a short, punchy
-            description once you decide the key takeaways to emphasize.
+            We evaluate DeCoST on extended OPTWVP against representative heuristics and NCO baselines.
+            DeCoST delivers consistently strong solution quality across scales and time windows, achieving
+            the best or near-best Scores and Gaps while remaining efficient. Adding STO markedly improves
+            NCO methods; for instance, GFACS+STO reduces the gap from 13.4% to 3.38% at n=100, TW=100,
+            albeit with higher runtime due to its non-autoregressive decoding and reduced batching. STO
+            is applied only to NCO models for fairness, since heuristics already embed service-time
+            optimization. Compared with ILS, DeCoST matches or exceeds quality with 20-45x faster inference.
           </p>
           <div class="table-container">
             <table class="table is-fullwidth is-striped is-hoverable is-narrow results-table">
