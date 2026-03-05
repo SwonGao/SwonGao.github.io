@@ -9,12 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-Currently, I am a PostDoc at University of Trento, focusing on optimization in robotics; 
-
-Education
-======
-* B.Eng. in Automation, University of Science and Technology of China, 2020
-* Ph.D. in Mechanical and Automation Engineering, The Chinese University of Hong Kong, 2024
+I am a Postdoctoral Researcher in the [IDRA Research Group](https://idra.unitn.it/) at the University of Trento (UniTrento), supervised by Prof. Daniele Fontanelli. My research focuses on optimization for robotics, combining learning and model-based methods to enable more capable and reliable autonomy. I earned my Ph.D. in Mechanical and Automation Engineering from The Chinese University of Hong Kong (CUHK) in 2024, advised by Prof. Ben M. Chen, and my B.Eng. in Automation from the University of Science and Technology of China in 2020.
 
 <!-- Work experience
 ======
