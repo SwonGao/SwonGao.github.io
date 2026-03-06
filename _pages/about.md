@@ -26,6 +26,48 @@ I am a Postdoctoral Researcher in the [IDRA Research Group](https://idra.unitn.i
 * Solidworks -->
   <!-- * Sub-skill 2.3 -->
 
+<section id="news">
+  <h2 class="section-title">News</h2>
+  <ul class="news-list">
+    <li class="news-item">
+      <span class="news-date">February 2026</span>
+      <span class="news-content">
+        🎉 Zanxi's Paper got accepted at <strong>CVPR 2026</strong>: "<span style="color: #2a5c8a;">Stru</span><span style="color: #e056fd;">XLIP</span>: Enhancing Vision-Language Models with Multimodal Structural Cues." <a href="https://eveleslie.github.io/struxlip-web/" target="_blank" rel="noopener noreferrer" class="news-paper-link">[link]</a>
+      </span>
+    </li>
+    <li class="news-item">
+      <span class="news-date">January 2026</span>
+      <span class="news-content">
+        🎉 My Paper got accepted at <strong>ICLR 2026</strong>: "Learning to Solve Orienteering Problem with Time Windows and Variable Profits." <a href="/DeCoST_iclr2026/" class="news-paper-link">[project page]</a>
+      </span>
+    </li>
+    <li class="news-item">
+      <span class="news-date">October 2025</span>
+      <span class="news-content">
+        📄 My Paper got accepted in <strong>Control Engineering Practice</strong>: "Motion-force control of mobile manipulators via extended uncertainty and disturbance estimation." <a href="https://www.sciencedirect.com/science/article/abs/pii/S0967066125004125" target="_blank" rel="noopener noreferrer" class="news-paper-link">[link]</a>
+      </span>
+    </li>
+    <li class="news-item">
+      <span class="news-date">May 2025</span>
+      <span class="news-content">
+        🏆 Third Prize, <strong>Robotwin dual-arm Collaboration Challenge</strong> (CVPR 2025). <a href="/files/awards/robotwin-cvpr-2025.pdf" class="news-paper-link">[certificate]</a>
+      </span>
+    </li>
+    <li class="news-item">
+      <span class="news-date">Aug 2024</span>
+      <span class="news-content">
+        🏆 Finalist, <strong>CIS-RAM 2024</strong>. <a href="/files/awards/cisram-bpfinalist.pdf" class="news-paper-link">[certificate]</a>
+      </span>
+    </li>
+    <li class="news-item">
+      <span class="news-date">June 2024</span>
+      <span class="news-content">
+        I successfully defended my PhD dissertation and received my PhD degree from CUHK!
+      </span>
+    </li>
+  </ul>
+</section>
+
 Selected Publications
 ======
 * **S. Gao**, Z. Ruan, P. Floor, M. Roveri, L. Palopoli, and D. Fontanelli, "Learning to Solve Orienteering Problem with Time Windows and Variable Profits," *International Conference on Learning Representations (ICLR), 2026 (accepted)*. [project page](/DeCoST_iclr2026/)
@@ -33,7 +75,8 @@ Selected Publications
 
 Awards
 ======
-* Finalist, CIS-RAM 2024
+* Third Prize, Robotwin dual-arm Collaboration Challenge, CVPR 2025 ([certificate](/files/awards/robotwin-cvpr-2025.pdf))
+* Finalist, CIS-RAM 2024 ([certificate](/files/awards/cisram-bpfinalist.pdf))
   
 Teaching
 ======

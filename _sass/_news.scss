@@ -1,0 +1,62 @@
+/* ==========================================================================
+   News
+   ========================================================================== */
+
+#news {
+  margin: 1.5em 0;
+
+  .section-title {
+    margin-top: 0;
+  }
+
+  .news-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .news-item {
+    display: flex;
+    gap: 1rem;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid $border-color;
+  }
+
+  .news-item:last-child {
+    border-bottom: 0;
+  }
+
+  .news-date {
+    flex: 0 0 7.5rem;
+    color: $gray;
+    font-weight: 600;
+    font-size: 0.9em;
+    white-space: nowrap;
+  }
+
+  .news-content {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .news-paper-link {
+    color: $link-color;
+    text-decoration: none;
+
+    &:hover {
+      color: $link-color-hover;
+      text-decoration: underline;
+    }
+  }
+
+  @include breakpoint(max-width $small) {
+    .news-item {
+      flex-direction: column;
+      gap: 0.25rem;
+    }
+
+    .news-date {
+      flex: none;
+    }
+  }
+}
