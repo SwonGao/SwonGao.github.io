@@ -38,13 +38,13 @@ I am a Postdoctoral Researcher in the [IDRA Research Group](https://idra.unitn.i
     <li class="news-item">
       <span class="news-date">January 2026</span>
       <span class="news-content">
-        🎉 My paper got accepted at <strong>ICLR 2026</strong>: "Learning to Solve Orienteering Problem with Time Windows and Variable Profits." <a href="/DeCoST_iclr2026/" class="news-paper-link">[project page]</a> Huge thank to my professors!
+        🎉 My paper got accepted at <strong>ICLR 2026</strong>: "Learning to Solve Orienteering Problem with Time Windows and Variable Profits." Huge thank to my professors! <a href="/DeCoST_iclr2026/" class="news-paper-link">[project page]</a> 
       </span>
     </li>
     <li class="news-item">
       <span class="news-date">October 2025</span>
       <span class="news-content">
-        📄 My paper got accepted in <strong>Control Engineering Practice</strong>: "Motion-force control of mobile manipulators via extended uncertainty and disturbance estimation." <a href="https://www.sciencedirect.com/science/article/abs/pii/S0967066125004125" target="_blank" rel="noopener noreferrer" class="news-paper-link">[link]</a> Many thanks to Prof. Qinyuan Ren and Ben M. Chen!!
+        📄 My paper got accepted in <strong>Control Engineering Practice</strong>: "Motion-force control of mobile manipulators via extended uncertainty and disturbance estimation." Many thanks to Prof. Qinyuan Ren and Ben M. Chen!! <a href="https://www.sciencedirect.com/science/article/abs/pii/S0967066125004125" target="_blank" rel="noopener noreferrer" class="news-paper-link">[link]</a>
       </span>
     </li>
     <li class="news-item">
@@ -72,7 +72,7 @@ Selected Publications
 ======
 * **S. Gao**, Z. Ruan, P. Floor, M. Roveri, L. Palopoli, and D. Fontanelli, "Learning to Solve Orienteering Problem with Time Windows and Variable Profits," *International Conference on Learning Representations (ICLR)*, 2026. [project page](/DeCoST_iclr2026/)
 * **S. Gao**, Y. Zhu, W. Ding, M. Cheng, Q. Ren, and Ben M. Chen, "Motion-force control of mobile manipulators via extended uncertainty and disturbance estimation," *Control Engineering Practice, vol. 167, pp. 106650*, 2026. [link](https://www.sciencedirect.com/science/article/abs/pii/S0967066125004125)
-* **S. Gao** and Z. Kan, "Effective Dynamic Coverage Control for Heterogeneous Driftless Control Affine Systems," in *IEEE Control Systems Letters, vol. 5, no. 6, pp. 2018-2023,* Dec. 2021. (Joint submission to IEEE CSL and American control conference (ACC)). [link]("https://ieeexplore.ieee.org/document/9302698")
+* **S. Gao** and Z. Kan, "Effective Dynamic Coverage Control for Heterogeneous Driftless Control Affine Systems," in *IEEE Control Systems Letters, vol. 5, no. 6, pp. 2018-2023,* Dec. 2021. (Joint submission to IEEE CSL and American control conference (ACC)). [href](https://ieeexplore.ieee.org/document/9302698)
 
 Awards
 ======
