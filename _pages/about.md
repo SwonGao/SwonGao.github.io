@@ -30,9 +30,15 @@ I am a Postdoctoral Researcher in the [IDRA Research Group](https://idra.unitn.i
   <h2 class="section-title">News</h2>
   <ul class="news-list">
     <li class="news-item">
+      <span class="news-date">June 2026</span>
+      <span class="news-content">
+        🏆 Our paper "On Uncertainty-Aware ML-Based Systems: a Metrology Perspective" was selected as a Best Paper Award finalist at <strong>IEEE AI4IM 2026</strong>.
+      </span>
+    </li>
+    <li class="news-item">
       <span class="news-date">February 2026</span>
       <span class="news-content">
-        🎉 Zanxi's Paper got accepted at <strong>CVPR 2026</strong>: "<span style="color: #2a5c8a;">Stru</span><span style="color: #e056fd;">XLIP</span>: Enhancing Vision-Language Models with Multimodal Structural Cues." <a href="https://eveleslie.github.io/struxlip-web/" target="_blank" rel="noopener noreferrer" class="news-paper-link">[link]</a>
+        🎉 Zanxi's Paper got accepted at <strong>CVPR 2026</strong>: "<span style="color: #2a5c8a;">Stru</span><span style="color: #e056fd;">XLIP</span>: Enhancing Vision-Language Models with Multimodal Structural Cues." <a href="https://eveleslie.github.io/structxlip-web/" target="_blank" rel="noopener noreferrer" class="news-paper-link">[link]</a>
       </span>
     </li>
     <li class="news-item">
@@ -56,7 +62,7 @@ I am a Postdoctoral Researcher in the [IDRA Research Group](https://idra.unitn.i
     <li class="news-item">
       <span class="news-date">Aug 2024</span>
       <span class="news-content">
-        🏆 Our work was selected as a finalist for the Best Paper Award <strong>CIS-RAM 2024</strong>. <a href="/files/awards/cisram-bpfinalist.pdf" class="news-paper-link">[certificate]</a>
+        🏆 Our work was selected as a finalist for the Best Paper Award <strong>IEEE CIS-RAM 2024</strong>. <a href="/files/awards/cisram-bpfinalist.pdf" class="news-paper-link">[certificate]</a>
       </span>
     </li>
     <li class="news-item">
