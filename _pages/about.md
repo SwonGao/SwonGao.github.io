@@ -38,7 +38,7 @@ I am a Postdoctoral Researcher in the [IDRA Research Group](https://idra.unitn.i
     <li class="news-item">
       <span class="news-date">February 2026</span>
       <span class="news-content">
-        🎉 Zanxi's Paper got accepted at <strong>CVPR 2026</strong>: "<span style="color: #2a5c8a;">Stru</span><span style="color: #e056fd;">XLIP</span>: Enhancing Vision-Language Models with Multimodal Structural Cues." <a href="https://eveleslie.github.io/structxlip-web/" target="_blank" rel="noopener noreferrer" class="news-paper-link">[link]</a>
+        🎉 Zanxi's Paper got accepted at <strong>CVPR 2026</strong>: "<span style="color: #2a5c8a;">Stru</span><span style="color: #e056fd;">XLIP</span>: Enhancing Vision-Language Models with Multimodal Structural Cues." <a href="https://eveleslie.github.io/structxlip-web/" target="_blank" rel="noopener noreferrer" class="news-paper-link">[project page]</a>
       </span>
     </li>
     <li class="news-item">
@@ -76,9 +76,9 @@ I am a Postdoctoral Researcher in the [IDRA Research Group](https://idra.unitn.i
 
 Selected Publications
 ======
-* **S. Gao**, Z. Ruan, P. Floor, M. Roveri, L. Palopoli, and D. Fontanelli, "Learning to Solve Orienteering Problem with Time Windows and Variable Profits," *International Conference on Learning Representations (ICLR)*, 2026. [project page](/DeCoST_iclr2026/)
+* **S. Gao**, Z. Ruan, P. Floor, M. Roveri, L. Palopoli, and D. Fontanelli, "Learning to Solve Orienteering Problem with Time Windows and Variable Profits," *International Conference on Learning Representations (ICLR)*, 2026. [link](/DeCoST_iclr2026/)
 * **S. Gao**, Y. Zhu, W. Ding, M. Cheng, Q. Ren, and Ben M. Chen, "Motion-force control of mobile manipulators via extended uncertainty and disturbance estimation," *Control Engineering Practice, vol. 167, pp. 106650*, 2026. [link](https://www.sciencedirect.com/science/article/abs/pii/S0967066125004125)
-* **S. Gao** and Z. Kan, "Effective Dynamic Coverage Control for Heterogeneous Driftless Control Affine Systems," in *IEEE Control Systems Letters, vol. 5, no. 6, pp. 2018-2023,* Dec. 2021. (Joint submission to IEEE CSL and American control conference (ACC)). [href](https://ieeexplore.ieee.org/document/9302698)
+* **S. Gao** and Z. Kan, "Effective Dynamic Coverage Control for Heterogeneous Driftless Control Affine Systems," in *IEEE Control Systems Letters, vol. 5, no. 6, pp. 2018-2023,* Dec. 2021. (Joint submission to IEEE CSL and American control conference (ACC)). [link](https://ieeexplore.ieee.org/document/9302698)
 
 Awards
 ======
